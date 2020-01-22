@@ -1,0 +1,9 @@
+Flask
+gunicorn
+sklearn
+scikit-learn
+sklearn
+numpy
+nltk
+scipy
+
