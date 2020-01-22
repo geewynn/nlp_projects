@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 import os
-from text_modelling import vectorize_words, nmf, show_words
+from tag_generator import vectorize_words, nmf, show_words
 
 app = Flask(__name__)
 
