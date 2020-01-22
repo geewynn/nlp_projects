@@ -1,13 +1,27 @@
-# Team_Julia_Recommender_System
+# Recommender_System
+- Evaluation Metric - Root MEan Squared Error (RMSE)
 
-A recommendation engine filters consumer data using different algorithms and recommends the most relevant items to users based on the users behaviour and what other users that have similar characteristics have purchased.
+# Data Preprocessing
+- Data was gotten from lucid.blog, This data was released in the form of a dump.
+- Meaningful column used was accessed using phpmyadmin and extracted to a csv file.
+- Data was converted into SFRAME, required for turicreate to work with.
 
-The task we have been presented with is to create a recommendation engine/system for lucid.blog a blog for created by ex-interns of HNG. We were presented with a database dump of the blog and our task was to recommend articles to users of the blog and suggestions of who to follow. 
+# Model
+- Spilit the data into train and validation.
+2 different models was built.
+- 1 A rating model and an Item similarity model.
+## Rating Model
+- Ratings was decided by using the turicreate ranking factorization recommender method.
+- Based on the evaluation metric, the rating model had a rsme of 0.56 on per user basis and rsme of 0.19 per item basis.
 
-From the database dump we were able to pull relevant features from tables.
+## Item Similarity Model
+- Used the item similarity recommender method of turicreate to implement this model.
+- Per user basis, the model scored 0.16 on the evaluation metric.
+- Per Item basis, the model scored 0.16 on the evaluation metric.
 
-There are two ways we can test this model. Reasons being we used the turicreate library to create the recommender system and we had diffculties installing it on windows.
+- Based on the comparison, the item similarity model performed better than the rating model.
 
+### Testing the Model
 **First and most recommended step to try out the model is**
 1. Go to the colab https://colab.research.google.com/drive/1yaUUM9aWt2fdwy0EH6C5va01yCxUTit1#scrollTo=exaELg8KZdHV
 2.Download the data from https://drive.google.com/drive/folders/1BOKo2EeCRQ-Z85t5hzEtGz1svEYB6GmK?usp=sharing
