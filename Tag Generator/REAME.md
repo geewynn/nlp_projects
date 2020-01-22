@@ -44,4 +44,4 @@ Similar to Principal component analysis (PCA), NMF takes advantage of the fact t
 ### TFIDF
 - Term frequency inverse document frequency returns the most important word in a documents.
 
-- For the final model I used the term TFIDF model to generate tags from a collection of text/content.
+- For the final model I used the term NMF model to generate tags from a collection of text/content.
