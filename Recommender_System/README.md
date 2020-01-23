@@ -1,5 +1,5 @@
 # Recommender_System
-- Evaluation Metric - Root MEan Squared Error (RMSE)
+- Evaluation Metric - Root Mean Squared Error (RMSE)
 
 # Data Preprocessing
 - Data was gotten from lucid.blog, This data was released in the form of a dump.
