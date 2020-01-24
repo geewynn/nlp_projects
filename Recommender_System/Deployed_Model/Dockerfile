@@ -3,10 +3,10 @@ MAINTAINER Godwin Ekainu
 
 RUN apt-get update \ 
   && apt-get update -y \
-  && apt-get install -y python-pip python-dev libatlas-base-dev \
-  && pip install --upgrade pip \
+  && apt-get install python-pip libatlas3-base -y \
+  && pip install -U pip \
   && cd /usr/local/bin \
-  && pip install turicreate \
+  && pip install -U turicreate \
   && pip install flask 
 
 COPY follower_rec follower_rec
