@@ -1,16 +1,18 @@
 FROM ubuntu:16.04
-MAINTAINER Godwin Ekainu
 
-RUN apt-get update \ 
-  && apt-get update -y \
-  && apt-get install python-pip libatlas3-base -y \
-  && pip install -U pip \
-  && cd /usr/local/bin \
-  && pip install -U turicreate \
-  && pip install flask 
+MAINTAINER Dhiraj Godwin Ekainu
 
-COPY follower_rec follower_rec
-COPY rating_model rating_model
-COPY deploy.py deploy.py
+RUN apt-get update -y && \
+    apt-get install -y python-pip python-dev
 
-ENTRYPOINT ["python3","deploy.py"]
+COPY ./requirements.txt /app/requirements.txt
+
+WORKDIR /app
+
+RUN pip install -r requirements.txt
+
+COPY . /app
+
+ENTRYPOINT [ "python" ]
+
+CMD [ "deploy.py" ]
