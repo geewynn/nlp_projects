@@ -8,7 +8,7 @@ MAINTAINER Godwin Ekainu
 
 RUN apt-get update && \
 	apt-get install python-pip libatlas3-base -y && \
-	pip install -U pip
+	pip install -U pip \
         pip install --upgrade pip
 
 COPY ./requirements.txt /app/requirements.txt
