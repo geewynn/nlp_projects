@@ -1,9 +1,11 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 MAINTAINER Godwin Ekainu
 
-RUN apt-get update && \
-    apt-get install -y python-pip
+RUN sudo apt-get install libgconf-2-4
+RUN sudo apt-get install -y libstdc++6 python-setuptools
+RUN sudo easy_install pip
+RUN pip install --upgrade pip
 
 COPY ./requirements.txt /app/requirements.txt
 
