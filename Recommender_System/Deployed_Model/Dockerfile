@@ -2,9 +2,8 @@ FROM ubuntu:16.04
 
 MAINTAINER Godwin Ekainu
 
-RUN apt-get update -y && \
-    apt-get install -y python-pip python-dev \
-    pip install --upgrade pip
+RUN apt-get update && \
+    apt-get install -y python-pip
 
 COPY ./requirements.txt /app/requirements.txt
 
