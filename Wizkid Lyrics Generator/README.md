@@ -1,1 +1,1 @@
-# Wizkid Song Lyric Generator
+# Wizkid Song Lyrics Predictor
