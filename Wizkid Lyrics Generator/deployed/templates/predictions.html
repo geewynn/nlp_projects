@@ -11,19 +11,25 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Github</a></li>
-                <li><a href="https://www.linkedin.com/in/godwin-ekainu-34a50b127/">LinkedIn</a></li>
-                <li><a href="mailto:ekainugodwin@gmail.com">Email</a></li>
+                <li><a href="https://github.com/geewynn/nlp_projects/blob/master/Wizkid%20Lyrics%20Generator/README.md#wizkid-song-lyric-generator" target="_blank">About</a></li>
+                <li><a href="https://github.com/geewynn"target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/godwin-ekainu-34a50b127/"target="_blank">LinkedIn</a></li>
+                <li><a href="mailto:ekainugodwin@gmail.com" target="_blank">Email</a></li>
             </ul>
         </nav>
     </header>
 
 {#    {% for word in words %}#}
-    <b style="color: white">{{ words }}</b>
+    <p style="color: white"> Don't worry if the lyrics are weird, majority of Nigerian musicians mostly repeat their words,
+        they live for only the beats.
+    </p>
+    <div class="bordered" style="align-items: center">
+        {{ words }}
+{#    <b style="color: white">{{ words }}</b>#}
+    </div>
 {#    {% endfor %}#}
-<form action="/predictor">
-        <input type="submit" value="Again?" />
+    <form action="/predictor">
+        <button type="submit">Try Again</button>
     </form>
 </body>
 </html>

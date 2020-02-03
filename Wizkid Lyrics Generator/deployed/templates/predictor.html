@@ -11,8 +11,8 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Github</a></li>
+                <li><a href="https://github.com/geewynn/nlp_projects/blob/master/Wizkid%20Lyrics%20Generator/README.md#wizkid-song-lyric-generator">About</a></li>
+                <li><a href="https://github.com/geewynn">Github</a></li>
                 <li><a href="https://www.linkedin.com/in/godwin-ekainu-34a50b127/">LinkedIn</a></li>
                 <li><a href="mailto:ekainugodwin@gmail.com">Email</a></li>
             </ul>
@@ -21,11 +21,11 @@
 
     <div>
         <div>
-            <h1> Input Text</h1>
+            <h1 style="text-align: center"> Input Text</h1>
             <form action="/prediction" method="POST">
-                <input type="text" name="text" placeholder="input start words for prediction" required>
-                <input type="number" name="length" placeholder="Input your proposed number of predicted words" required>
-                <input type="submit"/>
+                <input type="text" name="text" placeholder="input start words for prediction" style="width: 50%; height: 100px" required>
+                <input type="number" name="length" placeholder="Input your proposed number of predicted words(1-100)" style="width: 50%; height:30px" min="1" max="100" required>
+                <button type="submit">Submit</button>
             </form>
 
         </div>

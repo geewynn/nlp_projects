@@ -46,3 +46,29 @@ main {
     align-items: center;
     text-align: center;
 }
+
+.bordered {
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: ghostwhite;
+    align-content: center;
+
+  }
+
+ button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ a {
+
+ }
