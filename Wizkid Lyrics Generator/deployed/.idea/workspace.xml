@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="befb8e4e-2941-453f-a5bf-d7865fbfaf03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../Tag Generator/deployed_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tag Generator/deployed_app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/predictions.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/predictions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/predictor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/predictor.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +94,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="5">
     <option name="x" value="686" />
     <option name="y" value="27" />
     <option name="width" value="673" />
@@ -208,16 +203,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580675343371</updated>
-      <workItem from="1580675347201" duration="7121000" />
+      <workItem from="1580675347201" duration="7968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7121000" />
+    <option name="totallyTimeSpent" value="7968000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="686" y="27" width="673" height="741" extended-state="4" />
-    <editor active="true" />
+    <frame x="686" y="27" width="673" height="741" extended-state="5" />
     <layout>
       <window_info id="Favorites" side_tool="true" weight="0.32854864" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24880382" />
